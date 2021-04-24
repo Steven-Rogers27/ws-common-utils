@@ -1,0 +1,14 @@
+{
+  "extends": "./config/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./lib"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

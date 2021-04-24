@@ -1,0 +1,9 @@
+/config/
+/lib/
+/node_modules/
+/typings/
+.gitignore
+.npmignore
+tsconfig.*.json
+*.lock
+webpack.*.config.js
