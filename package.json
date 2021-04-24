@@ -1,6 +1,6 @@
 {
   "name": "weisun-common-utils",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "常用工具函数包",
   "main": "./dist/ws-common-utils.cjs.prod.js",
   "repository": {

@@ -8,6 +8,11 @@ module.exports = {
   output: {
     filename: '[name].cjs.prod.js',
     path: path.resolve(__dirname, 'dist'),
+    library: {
+      name: 'wsCommonUtils',
+      type: 'umd',
+      export: 'default',
+    },
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
