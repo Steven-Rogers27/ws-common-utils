@@ -10,8 +10,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     library: {
       name: 'wsCommonUtils',
-      type: 'umd',
-      export: 'default',
+      type: 'umd', // 支持CommonJS AMD global变量 模式下的包引用
+      export: 'default', // 把 default 导出中的内容直接放在库名 wsCommonUtils 下
     },
   },
   resolve: {
